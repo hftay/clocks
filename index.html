@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Clocks</h1>
+    <svg class="clock" id="face">
+    </svg>
+    <svg class="clock" id="secondHand">
+      <line x1="250" y1="10" x2="250" y2="250" style="stroke:tomato; stroke-width: 2px;" id="secondHand" />
+    </svg>
+    <svg class="clock" id="minuteHand">
+      <line x1="250" y1="30" x2="250" y2="250" style="stroke:ivory; stroke-width: 4px;" id="minuteHand" />
+    </svg>
+    <svg class="clock" id="hourHand">
+      <line x1="250" y1="50" x2="250" y2="250" style="stroke:ivory; stroke-width: 6px; stroke-linecap:round;" id="secondHand" />
+    </svg>
+  </div>
+  <iframe src="https://open.spotify.com/embed/track/5RBpUTalLt2mShqf1Sy2hd" width="300" height="80" frameborder="0" allowtransparency="true" id="spotify"></iframe>
+  
+  <script src="app.js"></script>
+</body>
+</html>
