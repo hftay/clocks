@@ -26,6 +26,22 @@ h1 {
   border-radius: 50%;
 }
 
+#secondHand {
+  stroke:tomato; 
+  stroke-width: 2px;
+}
+
+#minuteHand {
+  stroke:ivory; 
+  stroke-width: 4px;
+}
+
+#hourHand {
+  stroke: ivory;
+  stroke-linecap: round;
+  stroke-width: 8px;
+}
+
 #spotify { 
   position: absolute;
   left: calc(50% - 150px);
